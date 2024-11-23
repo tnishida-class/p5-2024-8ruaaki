@@ -74,8 +74,8 @@ function dayOfWeek(y, m, d){
     // 1970年1月1日（木曜日）からの経過日数を計算
     const daysFrom19700101 = daysSince19700101(y, m, d);
   
-    // 基準日の曜日（木曜日）は3
-    const baseDayOfWeek = 3;
+    // 基準日の曜日（木曜日）は4
+    const baseDayOfWeek = 4;
   
     // 経過日数を7で割った余りが、その日の曜日
     return (baseDayOfWeek + daysFrom19700101) % 7;
