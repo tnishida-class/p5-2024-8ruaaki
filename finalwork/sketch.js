@@ -218,7 +218,7 @@ function draw() {
         background(255);
           textSize(64);
           fill(0)
-          text("休みが無くなった！", windowWidth / 2 - 300, height / 2);
+          text("Goodbye 土日、また会う日まで", windowWidth / 2 - 500, height / 2);
           noLoop();
       }
 }
