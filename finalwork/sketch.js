@@ -7,7 +7,7 @@ let increment = 1;
 let collisionCount = 0;
 let red,blue,green;
 
-const GAME_CLEAR_COUNT = 7;
+const GAME_CLEAR_COUNT = 10;
 const g = 0.5; //重力加速度
 const vyMax = 30;
 const msg = 'okey';
