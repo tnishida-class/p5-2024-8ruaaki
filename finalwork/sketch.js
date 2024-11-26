@@ -63,7 +63,7 @@ function draw() {
   text(`消化した課題: ${collisionCount}`, 20, 40);
   text('締め切り', windowWidth/2, size-50);
   textSize(20);
-  text('・^・', x - 30 , y);
+  text('🐧', x - 30 , y);
 
   if( 675 <= y ){ 
     vy = 0 * vy; 
